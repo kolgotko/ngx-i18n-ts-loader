@@ -1,0 +1,19 @@
+{
+  "name": "@kolgotko/ngx-i18n-ts-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "I.Bykov <con29rus@live.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@kolgotko/ngx-i18n-ts-common": "https://github.com/kolgotko/ngx-i18n-ts-common",
+    "typescript": "^3.6.4",
+    "@types/node": "^12.11.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  }
+}

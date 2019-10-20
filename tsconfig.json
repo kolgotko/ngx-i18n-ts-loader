@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
     "moduleResolution": "node",
     "module": "commonjs",
     "target": "es6",
@@ -11,6 +14,7 @@
     "./index.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }

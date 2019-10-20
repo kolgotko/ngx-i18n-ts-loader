@@ -1,7 +1,7 @@
 {
   "name": "@kolgotko/ngx-i18n-ts-loader",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "I.Bykov <con29rus@live.ru>",
   "license": "MIT",
   "devDependencies": {
@@ -10,8 +10,9 @@
     "@types/node": "^12.11.1"
   },
   "files": [
-    "index.js"
+    "dist"
   ],
+  "types": "dist",
   "scripts": {
     "prepare": "yarn build",
     "build": "tsc"

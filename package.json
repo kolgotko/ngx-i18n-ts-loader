@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "author": "I.Bykov <con29rus@live.ru>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@kolgotko/ngx-i18n-ts-common": "https://github.com/kolgotko/ngx-i18n-ts-common",
     "typescript": "^3.6.4",
     "@types/node": "^12.11.1"
